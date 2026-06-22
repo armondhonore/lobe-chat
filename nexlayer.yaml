@@ -1,0 +1,12 @@
+application:
+  name: lobe-chat
+  pods:
+  - name: app
+    image: lobehub/lobe-chat:latest
+    path: /
+    servicePorts:
+    - 3210
+    vars:
+      OPENAI_API_KEY: "sk-placeholder"
+      ACCESS_CODE: "nexlayer2024"
+      NEXT_PUBLIC_BASE_PATH: ""
