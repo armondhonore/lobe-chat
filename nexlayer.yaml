@@ -2,7 +2,7 @@ application:
   name: lobe-chat
   pods:
   - name: app
-    image: lobehub/lobe-chat:latest
+    image: mirror.gcr.io/lobehub/lobe-chat:latest
     path: /
     servicePorts:
     - 3210
